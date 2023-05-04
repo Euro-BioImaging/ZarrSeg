@@ -1,16 +1,1 @@
-#
-# fs = s3fs.S3FileSystem(
-#                       key='eosc-future-user',
-#                       secret='w2xx9EatWwmtsrbewt3LEfiGB',
-#                       client_kwargs={
-#                          'endpoint_url': 'https://s3.embl.de',
-#                       }
-#                    )
-#
-#
-# fs = s3fs.S3FileSystem(
-#                       key='eosc-future-user',
-#                       secret='w2xx9EatWwmtsrbewt3LEfiGB',
-#                       endpoint_url= 'https://s3.embl.de'
-#                    )
-# region = 'eu-west-2'
+
