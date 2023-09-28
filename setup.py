@@ -32,5 +32,6 @@ setuptools.setup(
     url = 'https://github.com/Euro-BioImaging/ZarrSeg',
     # license = 'MIT',
     packages = setuptools.find_packages(),
-    install_requires = requirements
+    install_requires = requirements,
+    scripts=["ZarrSeg/zseg"]
     )
