@@ -21,8 +21,8 @@ def readme():
 requirements = parse_requirements('requirements.txt')
 
 setuptools.setup(
-    name = 'image_processing',
-    version = '0.0.0',
+    name = 'ZarrSeg',
+    version = '0.0.1',
     author = 'Bugra Özdemir',
     author_email = 'bugraa.ozdemir@gmail.com',
     description = 'A package for segmentation of OME-Zarr datasets.',
