@@ -7,7 +7,8 @@ import sys
 scriptpath = os.path.dirname(os.path.realpath(__file__))
 
 exe = os.path.join(scriptpath, "main.py")
-command = 'conda run -n ZarrSeg %s' % exe
+# command = 'conda run -n ZarrSeg %s' % exe
+command = exe
 for item in sys.argv[1:]:
     command = command + ' ' + item
 
