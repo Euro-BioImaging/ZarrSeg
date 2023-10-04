@@ -1,1 +1,1 @@
-recursive-include ZarrSeg *
+recursive-include ZarrSeg/*
