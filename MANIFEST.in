@@ -1,1 +1,1 @@
-recursive-include ZarrSeg *
+include ZarrSeg/configs/*
