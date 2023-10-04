@@ -28,7 +28,6 @@ setuptools.setup(
     description = 'A package for segmentation of OME-Zarr datasets.',
     long_description = readme(),
     long_description_content_type = "text/markdown",
-    include_package_data = True,
     url = 'https://github.com/Euro-BioImaging/ZarrSeg',
     # license = 'MIT',
     packages = setuptools.find_packages(),
