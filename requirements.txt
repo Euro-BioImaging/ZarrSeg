@@ -1,3 +1,4 @@
 s3fs
 numpy
 scikit-image
+dask
