@@ -1,5 +1,6 @@
 s3fs
 numpy
 scikit-image
+ome-zarr
 zarr
 dask
