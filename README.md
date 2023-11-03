@@ -4,7 +4,7 @@ Command line tool to segment local and remote OME-Zarr data
 ### Example command line to threshold local OME-Zarr:
 
 ```bash
-zseg threshold -m otsu -c 1 -ch 0 -n otsu-c1-ch0 --colormap viridis example.zarr
+zseg threshold -m otsu -c 1 -ch 0 -n otsu-c1-ch0 --colormap viridis /path/to/example.zarr
 ```
 
 The command line arguments: 
