@@ -6,7 +6,10 @@ import sys
 
 scriptpath = os.path.dirname(os.path.realpath(__file__))
 
-exe = os.path.join(scriptpath, "../lib/python3.9/site-packages/ZarrSeg/main.py")
+python_version = sys.version_info[:2]
+pver = '.'.join(map(str, python_version))
+
+exe = os.path.join(scriptpath, f"../lib/python{pver}/site-packages/ZarrSeg/main.py")
 os.chmod(exe, stat.S_IRWXU|stat.S_IRWXG|stat.S_IRWXO)
 
 # command = 'conda run -n ZarrSeg %s' % exe
