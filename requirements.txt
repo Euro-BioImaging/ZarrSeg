@@ -4,3 +4,4 @@ scikit-image
 ome-zarr
 zarr
 dask
+matplotlib
