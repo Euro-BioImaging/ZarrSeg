@@ -1,6 +1,12 @@
 # ZarrSeg
 Command line tool to segment local and remote OME-Zarr data
 
+### Installation:
+
+```bash
+pip install git+https://github.com/Euro-BioImaging/ZarrSeg.git
+```
+
 ### Example command line to threshold local OME-Zarr:
 
 ```bash
