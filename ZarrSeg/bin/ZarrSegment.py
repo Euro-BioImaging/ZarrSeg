@@ -6,8 +6,6 @@ from skimage.draw import ellipsoid
 from DataLoader import ZarrSampler, index_nth_dimension
 from transforms.photometric.thresholding import global_threshold as gt
 
-### TIME WILL BEAT US TO EVERYTHING BUT MEMORIES
-
 scriptpath = os.path.dirname(os.path.realpath(__file__))
 
 class ZarrSegment(ZarrSampler):
